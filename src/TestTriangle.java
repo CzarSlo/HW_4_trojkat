@@ -1,9 +1,9 @@
 public class TestTriangle {
     public static void main(String[] args) {
-        Triangle tri1 = new Triangle(1,1, 3);
-        Triangle tri2 = new Triangle(1,2, 4);
-        Triangle tri3 = new Triangle(1,4, 5);
-        Triangle tri4 = new Triangle(2,2, 4);
+        Triangle tri1 = new Triangle(1, 1, 2);
+        Triangle tri2 = new Triangle(1, 2, 5);
+        Triangle tri3 = new Triangle(1, 4, 5);
+        Triangle tri4 = new Triangle(2, 2, 8);
 
         CheckTriangle check = new CheckTriangle();
 

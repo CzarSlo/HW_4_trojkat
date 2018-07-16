@@ -1,27 +1,27 @@
 public class Triangle {
-    private int firstFlank;
-    private int secondFlank;
+    private double firstFlank;
+    private double secondFlank;
     private double thirdFlank;
 
-    public Triangle(int firstFlank, int secondFlank, double thirdFlank) {
+    public Triangle(double firstFlank, double secondFlank, double thirdFlank) {
         this.firstFlank = firstFlank;
         this.secondFlank = secondFlank;
         this.thirdFlank = thirdFlank;
     }
 
-    public int getFirstFlank() {
+    public double getFirstFlank() {
         return firstFlank;
     }
 
-    public void setFirstFlank(int firstFlank) {
+    public void setFirstFlank(double firstFlank) {
         this.firstFlank = firstFlank;
     }
 
-    public int getSecondFlank() {
+    public double getSecondFlank() {
         return secondFlank;
     }
 
-    public void setSecondFlank(int secondFlank) {
+    public void setSecondFlank(double secondFlank) {
         this.secondFlank = secondFlank;
     }
 
